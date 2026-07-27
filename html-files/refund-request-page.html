@@ -17,5 +17,37 @@
                 </ul>
         </nav>
     </header>
+    <h2>Refund Request Form</h2>
+    <p>Please out all of the following information. Every field is required, and requests with missing information will not be looked at and discarded with no email follow up.</p>
+    <section class="refund-request-form">
+        <form>
+            <label>First and Last Name</label>
+            <input type="text" required>
+            <label>Email</label>
+            <input type="email" required>
+            <label>Order number</label>
+            <input type="number" required>
+            <label>Order Date</label>
+            <input type="date" required>
+            <label>Item Name</label>
+            <input type="text" required>
+            <label>Quantity</label>
+            <input type="number" required>
+            <label>Item photos</label>
+            <input type="file" accept="image/*"  required multiple>
+            <label>Box and Packaging Photos</label>
+            <input type="file" accept="image/*" required multiple>
+            <label>Shipping Label Photos</label>
+            <input type="file" accept="image/*" required multiple>
+            <label>Reason for refund</label>
+            <textarea required></textarea>
+            <label>By checking this box, I acknowledge that I have read and fully understand the refund policy.</label>
+            <input type="checkbox" required>
+            <label>By checking this box, I acknowledge that I must use trackable shipping and that I must pay shipping fees unless otherwise stated in the refund policy.</label>
+            <input type="checkbox" required>
+            <button type="reset">Clear form</button>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
