@@ -1,14 +1,25 @@
 :root {
     --background: #FFFFFF;
     --text: #111111;
-    --accent: #2A6FDB;
+    --accent: #111dff;
     --text-secondary: #8E8E8E;
     --section-fill: #F7F7F7;
     --border: #DADADA
 }
 
+
+.header-solo-links a, .dropbtn {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.header-solo-links a:hover, .dropbtn:hover {
+    color: var(--text);
+    text-decoration: underline;
+}
+
 .welcome-section h2 {
-    color: #111dff;
+    color: var(--accent);
 }
 
 .welcome-section a {
