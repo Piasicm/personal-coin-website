@@ -6,3 +6,17 @@
     --section-fill: #F7F7F7;
     --border: #DADADA
 }
+
+.welcome-section h2 {
+    color: #111dff;
+}
+
+.welcome-section a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.welcome-section a:hover {
+    color: var(--text);
+    text-decoration: underline;
+}
