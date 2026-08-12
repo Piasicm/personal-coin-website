@@ -11,11 +11,20 @@
 .header-solo-links a, .dropbtn {
     color: var(--accent);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .header-solo-links a:hover, .dropbtn:hover {
     color: var(--text);
     text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .welcome-section h2 {
