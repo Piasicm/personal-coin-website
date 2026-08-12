@@ -14,7 +14,7 @@ Roadmap:
 Phase 1 (in progress)
 Write HTML code for catalog, boxes, and layout
 
-Phase 2 (planned)
+Phase 2 (in progress)
 Write CSS for colors, styling etc
 
 Phase 3 (planned)
