@@ -8,6 +8,25 @@
 }
 
 
+.title {
+    display: inline;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 0;
+}
+
+#search-group {
+    display: inline;
+}
+
+.search-bar {
+    border-color: var(--text);
+    border-width: 4px;
+}
+
 .header-solo-links a, .dropbtn {
     color: var(--accent);
     text-decoration: none;
@@ -28,7 +47,7 @@
 }
 
 .welcome-section h2 {
-    color: var(--accent);
+    color: rgb(100, 111, 237);
 }
 
 .welcome-section a {
