@@ -18,6 +18,9 @@ body {
     justify-content: space-between; 
     padding: 10px 20px;            
     background-color: var(--background);
+    flex: auto;
+    max-width: 1500px;
+    min-width: 1500px;
 }
 
 .logo {
